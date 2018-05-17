@@ -15,7 +15,7 @@ The following functions are implemented:
   - `font_fsm`: Fira Sans Condensed font name R variable aliases
   - `import_fira_sans`: Import Fira Sans/Mono fonts for use in charts
   - `theme_ipsum_fsc`: A precise & pristine ggplot2 theme with
-    opinionated defaults and an emphasis on typoghraphy
+    opinionated defaults and an emphasis on typography
 
 ## Installation
 

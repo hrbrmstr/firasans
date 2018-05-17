@@ -50,7 +50,7 @@ ggplot(mtcars, aes(mpg, wt)) +
   theme_ipsum_fsc()
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+<img src="README_files/figure-gfm/unnamed-chunk-5-1.png" width="672" />
 
 ``` r
 # seminal bar chart
@@ -68,4 +68,4 @@ count(mpg, class) %>%
   theme(axis.text.y=element_blank())
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+<img src="README_files/figure-gfm/unnamed-chunk-6-1.png" width="672" />

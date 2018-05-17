@@ -2,6 +2,10 @@
 output: rmarkdown::github_document
 ---
 
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.retina=2)
+```
+
 # firasans
 
 Fira Sans Condensed + Fira Mono Font Theme Based on hrbrthemes

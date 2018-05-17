@@ -139,8 +139,8 @@ theme_ipsum_fsc <- function(
   xj <- switch(tolower(substr(axis_title_just, 1, 1)), b=0, l=0, m=0.5, c=0.5, r=1, t=1)
   yj <- switch(tolower(substr(axis_title_just, 2, 2)), b=0, l=0, m=0.5, c=0.5, r=1, t=1)
 
-  ret <- ret + theme(axis.text.x=element_text(size=axis_text_size, margin=margin(t=0)))
-  ret <- ret + theme(axis.text.y=element_text(size=axis_text_size, margin=margin(r=0)))
+  ret <- ret + theme(axis.text.x=element_text(family=axis_text_family, size=axis_text_size, margin=margin(t=0)))
+  ret <- ret + theme(axis.text.y=element_text(family=axis_text_family, size=axis_text_size, margin=margin(r=0)))
   ret <- ret + theme(axis.title=element_text(size=axis_title_size, family=axis_title_family))
   ret <- ret + theme(axis.title.x=element_text(hjust=xj, size=axis_title_size,
                                                family=axis_title_family, face=axis_title_face))

@@ -1,0 +1,27 @@
+Package: firasans
+Type: Package
+Title: Fira Sans Condensed + Fira Mono Font Theme Based on hrbrthemes
+Version: 0.1.0
+Date: 2018-05-17
+Authors@R: c(
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640")),
+      person("Google", comment = "Fira Sans Condensed & Fira Mono Fonts", 
+             role = c("cph"))
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+Description: Fira Sans Condensed + Fira Mono Font Theme Based on hrbrthemes.
+URL: https://github.com/hrbrmstr/firasans
+BugReports: https://github.com/hrbrmstr/firasans/issues
+Encoding: UTF-8
+License: MIT + file LICENSE
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0),
+    ggplot2,
+    hrbrthemes
+Imports:
+    extrafont
+RoxygenNote: 6.0.1.9000
